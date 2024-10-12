@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hole Clicker Game</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #blackhole {
+            width: 200px;
+            cursor: pointer;
+        }
+        #points {
+            font-size: 24px;
+            margin: 20px;
+        }
+        button {
+            padding: 10px;
+            margin: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Black Hole Clicker</h1>
+    <p id="points">Points: 0</p>
+    <img src="blackhole.png" alt="Black Hole" id="blackhole">
+    <br>
+    <button id="upgrade-btn">Upgrade (Cost: 10 Points)</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
